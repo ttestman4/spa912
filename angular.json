@@ -28,6 +28,7 @@
               "projects/app1/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/app1/src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +93,7 @@
               "projects/app1/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/app1/src/styles.scss"
             ],
             "scripts": []
@@ -203,6 +205,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "app1"
 }
