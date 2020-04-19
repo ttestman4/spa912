@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "release": "yarn build && yarn lint && yarn test --watch=false && yarn e2e"
+    "release": "yarn build lib1 && yarn build lib2 && yarn build && yarn lint && yarn test --watch=false && yarn e2e"
   },
   "private": true,
   "dependencies": {
